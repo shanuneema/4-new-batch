@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello
-</body>
-</html>
+<script>
+    // callback function : is a function which passed as an argument into anouther function 
+    function show(callback){
+        console.log("Show function called");
+        callback();
+    }
+    show(function(){
+        console.log("Callback function called");
+    })
+</script>
