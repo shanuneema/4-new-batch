@@ -1,0 +1,15 @@
+<!-- 
+    javascript map function : 
+    => it working on all array elements and return a new array with a result 
+    => high order function :  callback and return new array 
+    array.map(callback) 
+    => it does not change the original array 
+    => it does not working on the empty array 
+-->
+<script>
+    let arr = [10,20,30,40,50];
+    let newArray = arr.map((items)=>{
+        return items + 1;
+    });
+    console.log(newArray);
+</script>

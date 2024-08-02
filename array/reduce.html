@@ -1,0 +1,22 @@
+<!--
+    reduce() function :  it return a single data as a result 
+    => it working on all array elements 
+
+    array.reduce((current_value, next_value)=>{
+        return code 
+    }, initial_value)
+
+
+-->
+<script>
+    let arr = [10,20,30,40,50];
+    let sum = arr.reduce((current_value, next_value)=>{
+        return current_value + next_value;
+        // 0 + 10 = 10
+        // 10 + 20 = 30 
+        // 30 + 30 = 60
+        // 60 + 40 = 100
+        // 100 + 50  
+    }, 0);
+    console.log(sum);
+</script>

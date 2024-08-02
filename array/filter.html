@@ -1,0 +1,15 @@
+<script>
+    /*
+        javascript filter() :  
+        => it working on all array element and it return a new array with a specific data 
+         => high order function :  callback and return new array 
+        array.filter(callback) 
+        => it does not change the original array 
+        => it does not working on the empty array 
+    */
+    let arr = [10,11,20,50,21,5,60,18,20];
+    let newArray = arr.filter((items)=>{
+        return items >= 18;
+    });
+    console.log(newArray);
+</script>
